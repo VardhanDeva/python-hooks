@@ -12,7 +12,7 @@ file="./filtering_pre_push_files.txt"
 result=()
 
 restricted_file_ext=(.cert .pem .crt)
-restricted_value=(app.corpintra)
+restricted_value=()
 
 echo 'List of files that are created/Modified since from last push'
 
